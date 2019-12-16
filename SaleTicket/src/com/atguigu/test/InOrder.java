@@ -13,22 +13,46 @@ class Sequential{
     private Condition c3 = lock.newCondition();
 
     public void print5() throws InterruptedException {
+        String name = Thread.currentThread().getName();
         lock.lock();
         try {
-            while (flag != 1){
-                c1.await();
+            if (name.equals("AA")){
+                while (flag != 1){
+                    c1.await();
+                }
+                for (int i = 1; i <= 5; i++) {
+                    System.out.println(Thread.currentThread().getName()+"\t"+i);
+                }
+                flag = 2;
+                c2.signal();
             }
-            for (int i = 1; i <= 5; i++) {
-                System.out.println(Thread.currentThread().getName()+"\t"+i);
+            if (name.equals("BB")) {
+                while (flag != 2){
+                    c2.await();
+                }
+                for (int i = 1; i <= 10; i++) {
+                    System.out.println(Thread.currentThread().getName()+"\t"+i);
+                }
+                flag = 3;
+                c3.signal();
             }
-            flag = 2;
-            c2.signal();
+            if (name.equals("CC")) {
+                while (flag != 3){
+                    c3.await();
+                }
+                for (int i = 1; i <= 15; i++) {
+                    System.out.println(Thread.currentThread().getName()+"\t"+i);
+                }
+                flag = 1;
+                c1.signal();
+            }
         }finally {
             lock.unlock();
         }
+
     }
 
-    public void print10() throws InterruptedException {
+    /*public void print10() throws InterruptedException {
         lock.lock();
         try {
             while (flag != 2){
@@ -58,12 +82,13 @@ class Sequential{
         }finally {
             lock.unlock();
         }
-    }
+    }*/
 
 }
 
 public class InOrder {
     public static void main(String[] args) {
+        //多线程的顺序调用
         Sequential sequential = new Sequential();
 
         new Thread(() ->{
@@ -79,7 +104,7 @@ public class InOrder {
         new Thread(() ->{
             for (int i = 1; i <= 10; i++) {
                 try {
-                    sequential.print10();
+                    sequential.print5();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -89,7 +114,7 @@ public class InOrder {
         new Thread(() ->{
             for (int i = 1; i <= 10; i++) {
                 try {
-                    sequential.print15();
+                    sequential.print5();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
