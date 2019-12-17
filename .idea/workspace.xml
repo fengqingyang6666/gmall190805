@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b8a685b-5425-465e-8a5b-ea4f183a3a34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SaleTicket/src/com/atguigu/demo/MyThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/ThreadPoolSaleTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SaleTicket/com/atguigu/test/InOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SaleTicket/com/atguigu/test/InOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SaleTicket/com/atguigu/test/ListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SaleTicket/com/atguigu/test/Sequential.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SaleTicket/com/atguigu/test/Sequential.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/demo/target/" />
@@ -17,88 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/CountDown.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/demo/SaleTicketQY.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-868">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/TestJoin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-392">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/LambdaThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-84">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#339#519#1" />
-                <element signature="e#613#793#1" />
-                <element signature="e#887#1067#1" />
-                <element signature="e#1161#1341#1" />
-                <element signature="e#1595#1809#0" />
-                <element signature="e#2011#2225#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/InOrder.java">
+        <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/demo/MyThreadPoolDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-              <folding>
-                <element signature="method#print5#0;class#Sequential#0" />
-                <element signature="method#print5#1;class#Sequential#0" />
-                <element signature="method#print5#2;class#Sequential#0" />
-                <element signature="e#1684#1772#0" />
-                <element signature="e#1838#1948#0" />
-                <element signature="e#2330#2578#0" />
-              </folding>
+            <state relative-caret-position="328">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/Lock8.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/Executors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-552">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="253">
+              <caret line="215" column="29" selection-start-line="215" selection-start-column="29" selection-end-line="215" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/ListDemo.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="104">
+              <caret line="2046" column="32" lean-forward="true" selection-start-line="2046" selection-start-column="32" selection-end-line="2046" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -133,7 +79,13 @@
         <option value="$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/Lock8.java" />
         <option value="$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/List.java" />
         <option value="$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/ListDemo.java" />
+        <option value="$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/NoSafeArrayList.java" />
+        <option value="$PROJECT_DIR$/SaleTicket/src/com/atguigu/demo/NoSafeSet.java" />
+        <option value="$PROJECT_DIR$/SaleTicket/src/com/atguigu/demo/NoSafeDemo.java" />
+        <option value="$PROJECT_DIR$/SaleTicket/src/com/atguigu/demo/ReadWriteLockDemo.java" />
         <option value="$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/InOrder.java" />
+        <option value="$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/ThreadPoolSaleTicket.java" />
+        <option value="$PROJECT_DIR$/SaleTicket/src/com/atguigu/demo/MyThreadPoolDemo.java" />
       </list>
     </option>
   </component>
@@ -145,9 +97,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="515" />
-    <option name="y" value="117" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="5" />
+    <option name="y" value="12" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -200,41 +152,6 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="SaleTicketQY.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
-            <path>
-              <item name="gmall190805" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall190805" type="462c0819:PsiDirectoryNode" />
-              <item name="SaleTicket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall190805" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall190805" type="462c0819:PsiDirectoryNode" />
-              <item name="SaleTicket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="LambdaThread.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="gmall190805" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall190805" type="462c0819:PsiDirectoryNode" />
-              <item name="SaleTicket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Lock8.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="gmall190805" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall190805" type="462c0819:PsiDirectoryNode" />
-              <item name="SaleTicket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="TestJoin.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -244,6 +161,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="module" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="365" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="365" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="366" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="365" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="365" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="365" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="366" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="365" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -271,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InOrder">
+  <component name="RunManager" selected="Application.MyThreadPoolDemo">
     <configuration name="InOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test.InOrder" />
       <module name="SaleTicket" />
@@ -285,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.LambdaThread" />
+    <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.demo.MyThreadPoolDemo" />
       <module name="SaleTicket" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="PATTERN" value="com.atguigu.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,12 +231,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.ListDemo" />
+    <configuration name="NoSafeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.demo.NoSafeDemo" />
       <module name="SaleTicket" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="PATTERN" value="com.atguigu.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,12 +244,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lock8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.Lock8" />
+    <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.demo.ReadWriteLockDemo" />
       <module name="SaleTicket" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="PATTERN" value="com.atguigu.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,12 +257,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgugu.test.TestJoin" />
+    <configuration name="ThreadPoolSaleTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.ThreadPoolSaleTicket" />
       <module name="SaleTicket" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atgugu.test.*" />
+          <option name="PATTERN" value="com.atguigu.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyThreadPoolDemo" />
+        <item itemvalue="Application.ThreadPoolSaleTicket" />
         <item itemvalue="Application.InOrder" />
-        <item itemvalue="Application.ListDemo" />
-        <item itemvalue="Application.Lock8" />
-        <item itemvalue="Application.LambdaThread" />
-        <item itemvalue="Application.TestJoin" />
+        <item itemvalue="Application.ReadWriteLockDemo" />
+        <item itemvalue="Application.NoSafeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -393,6 +326,8 @@
       <workItem from="1576283838459" duration="5653000" />
       <workItem from="1576388482241" duration="5919000" />
       <workItem from="1576456033502" duration="12845000" />
+      <workItem from="1576508002746" duration="5287000" />
+      <workItem from="1576542494438" duration="11216000" />
     </task>
     <task id="LOCAL-00001" summary="更新项目库">
       <created>1576492969741</created>
@@ -401,11 +336,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576492969741</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新多线程按顺序输出">
+      <created>1576511691977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576511691977</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44538000" />
+    <option name="totallyTimeSpent" value="70349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,7 +361,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.20604026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.17516778" />
       <window_info id="Structure" order="1" sideWeight="0.50211865" side_tool="true" weight="0.25637585" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -439,8 +381,8 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32954547" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32905984" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -452,7 +394,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="right" id="Application Servers" order="10" weight="0.2624161" />
-      <window_info anchor="right" id="Run" order="11" weight="0.25637585" />
+      <window_info anchor="right" id="Run" order="11" visible="true" weight="0.3147651" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +402,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新项目库" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新项目库" />
+    <MESSAGE value="更新多线程按顺序输出" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新多线程按顺序输出" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -544,43 +487,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/demo/SaleTicketQY.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-868">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/ListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/Lock8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/hell.java" />
     <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/TestJoin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-392">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="645">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/NoSafeArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/Lock8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#251#407#0" />
+            <element signature="e#470#693#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/LambdaThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
+        <state relative-caret-position="336">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -594,28 +524,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/hell.java">
+    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/demo/ReadWriteLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="538">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/demo/SaleTicketQY.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="127" column="19" lean-forward="true" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="136" column="46" selection-start-line="136" selection-start-column="46" selection-end-line="136" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/ThreadPoolSaleTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="62" lean-forward="true" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/test/InOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        <state relative-caret-position="90">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
-            <element signature="method#print5#0;class#Sequential#0" />
-            <element signature="method#print5#1;class#Sequential#0" />
-            <element signature="method#print5#2;class#Sequential#0" />
-            <element signature="e#1684#1772#0" />
-            <element signature="e#1838#1948#0" />
-            <element signature="e#2330#2578#0" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/demo/NoSafeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/RejectedExecutionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="2046" column="32" lean-forward="true" selection-start-line="2046" selection-start-column="32" selection-end-line="2046" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="215" column="29" selection-start-line="215" selection-start-column="29" selection-end-line="215" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaleTicket/src/com/atguigu/demo/MyThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
